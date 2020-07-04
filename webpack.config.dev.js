@@ -8,7 +8,7 @@ export default {
 		extensions: ["*", ".js", ".jsx", ".json"],
 	},
 	devtool: "inline-source-map",
-	entry: [path.resolve(__dirname, "src/index")],
+	entry: [path.resolve(__dirname, "src/index.js")],
 	target: "web",
 	output: {
 		path: path.resolve(__dirname, "src"),
